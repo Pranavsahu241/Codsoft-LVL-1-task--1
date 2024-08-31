@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+       h1{
+    color:blue;
+    margin-left: 180px;
+}
+body{
+    margin: 0px;
+    margin-top: -20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sign{
+    height: 50px;
+    width: 100%;
+    border-bottom: 0px solid black;
+    
+}
+#courses{
+    margin-top: -55px;
+    margin-left: 300px;
+    position:absolute;
+    background-color:blue;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 6px;   
+    border: 0px; 
+    
+}
+#a{
+    margin-top: -45px;
+    margin-left: 700px;
+
+}
+.b:hover{
+    color: red;
+}
+.b{
+    color: black;
+    margin-left: 30px;
+}
+select{
+    opacity: 0;
+    
+    margin-top: -55px;
+    margin-left: 300px;
+    position: absolute;
+    height: 35px;
+    width: 100px;
+
+}
+a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    text-decoration: none;
+}
+#signup{
+    margin-top: -25px;
+    margin-left: 1330px;
+    position:absolute;
+    background-image:linear-gradient(to right, rgba(78, 2, 2, 0.971),red);
+    height: 35px;
+    width: 70px;
+    border-radius: 6px;   
+    border: 0px; 
+}
+#img{
+    height: 370px;
+    width: 100%;
+    position:absolute;
+    z-index: -1; 
+    
+}
+#home{
+    display: flex;
+}
+#h{
+    margin-left: 200px;
+    /* display: flex; */
+    margin-top: 20px;
+
+
+}
+#ho{
+    color: grey;
+    margin-left: -5px;
+}
+#ho:hover{
+    color: white;
+}
+
+.fm{
+    margin-top: 20.5px;
+    margin-left: 13px;
+    color: white;
+}
+#live{
+    margin-left: 193px;
+    margin-top: 60px;
+}
+p{
+    width: 1000px;
+    color: black;
+    margin-left: 193px;
+}
+#REG{
+    height: 60px;
+    width: 270px;
+    border-radius: 10px;
+    border: 0px;
+    background-color:blue ;
+    margin-left: 193px;
+}
+#free{
+        height: 110px;
+        width: 1150px;
+        background-color: white;
+        border: 0px;
+        border-radius: 10px;
+        margin-left: 193px;
+        margin-top: 40px;
+        display: flex;
+        box-shadow: .1px .1px 5px gray;
+}
+.f{
+    margin-left: 87px;
+    margin-top: 40px;
+}
+#box{
+    height: 472px;
+    width: 100%;
+    box-shadow: .1px .1px 5px gray;
+
+}
+#photo{
+    /* display: inline; */
+
+}
+#one{
+        height: 350px;
+        width: 350px;
+        border: 0px;
+        margin-left: 193px;
+        /* margin-top: 200px; */
+        box-shadow: .1px .1px 5px gray;
+        border-radius: 15px;
+        overflow: hidden;
+}
+#two{
+        height: 350px;
+        width: 350px;
+        border: 0px;
+        margin-left: 600px;
+        margin-top: -350px;
+        box-shadow: .1px .1px 5px gray;
+        border-radius: 15px;
+        overflow: hidden;
+}
+#three{
+        height: 350px;
+        width: 350px;
+        border: 0px;
+        margin-left: 1000px;
+        margin-top: -350px;
+        box-shadow: .1px .1px 5px gray;
+        border-radius: 15px;
+        overflow: hidden;
+}
+#v{
+    background-color:blue ;
+    border: 0px;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    margin-left: 625px;
+    margin-top: 50px;
+}
+.bt{
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    height: 28px;
+    width: 100px;
+    margin-left: 15px;
+
+
+}
+.we{
+    height: 200px;
+    width: 350px;
+    border-radius:15px ;
+
+}
+h2{
+    margin-left: 10px;
+}
+#footer{
+    height:900px;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+#juta{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    
+}
+#ok{
+    margin-top: 70px;
+    margin-left:100px ;
+}
+h6{
+    margin-top:120px ;
+    margin-left: -90px;
+}
+.so{
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+    margin-top:140px ;
+
+}
+#ico{
+    margin-left: -168px;
+    margin-top:150px ;
+}
+#app{
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+    margin-left: 1000px;
+    margin-top: 60px;
+   
+}
+#ap{
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+    background-color: rgb(51, 51, 51);
+    border:1px solid white;
+    color: white;
+}
+ #ios{
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color:rgb(51, 51, 51) ;
+    border:1px solid white ;
+    color: white;
+} 
+
+#foot{
+    height: 2400px;
+    width: 100%;
+    background-color: rgb(7, 7, 35);
+    color: white;   
+}
+#in{
+      height: 2300px;
+      width: 1150px;
+      /* border: 1px solid white; */
+      transform: translate(180px,0px);
+}
+
+#upgrade{
+    height: 200px;
+    width: 100%;
+}
+#w{
+    margin: 6px;
+    font-size: x-large;
+}
+.bu{
+     
+    height: 40px;
+    width: 230px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid white;
+    margin-left: 55%;
+    background-color: rgb(7, 7, 35);
+    font-size: 18px;    
+}
+ #but{
+    margin-top: -7%;
+    margin-left: 600px;
+} 
+#up{
+    height: 400px;
+    width: 100%; 
+    display: flex;
+    font-size: 16px;
+    color: rgb(92, 90, 90);
+    padding: 5px;
+    font-style: oblique;
+}
+    
+.texttwo{
+    margin-left: 10%;
+}
+.textthree{
+    margin-left: 10%;
+}
+header{
+    color:white;
+    font-size: large;
+    font-style: normal;
+}
+#upg{
+    height: 440px;
+    /* width: 1470px;  */
+    display: flex;
+    color: rgb(92, 90, 90);
+    padding: 6px;
+    font-style: oblique;
+    font-size: 10px;
+}
+.textfour{
+    margin-left: 0px;
+}
+.textfive{
+    margin-left: 10px;
+}
+.textsix{
+    margin-left: 10px;
+}
+.textseven{
+    margin-left: 10px;
+}
+#upgr{
+    height: 480px;
+    /* width: 1470px;  */
+    display: flex;
+    color: rgb(92, 90, 90);
+    padding: 6px;
+    font-size: 10px;
+    font-style: oblique;
+}
+.texteight{
+    margin-left: 0px;
+}
+.textnine{
+    margin-left: 10px;
+}
+.textten{
+    margin-left: 10px;
+}
+.texteleven{
+    margin-left: 10px;
+}
+#upgra{
+    height: 460px;
+    /* width: 1470px;  */
+    display: flex;
+    color: rgb(92, 90, 90);
+    padding: 8px;
+    font-size: 15px;
+    font-style: oblique;
+}
+.texttwelve{
+    margin-left: 0px;
+}
+.textherteen{
+    margin-left: 17px;
+}
+.textfourteen{
+    margin-left: 13px;
+}
+#last{
+    height: 70px;
+    color: rgb(92, 90, 90);
+    font-size: 15px;
+    font-style: oblique;
+}
+#end{
+    height: 20px;
+    color: rgb(92, 90, 90);
+    font-size: 15px;
+    font-style: oblique;
+}
+.bc{
+    color: white;
+}
+.bc:hover{
+    color: rgb(255, 132, 0);
+}
+#call{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    box-shadow: .1px .1px 5px gray;
+    z-index: +2;
+    top: 90%;
+    left: 95%;
+    font-size: 30px;
+    text-align: center;
+    background:white;
+    border-radius: 5px;
+}
+#call i{
+    margin-top: 10px;
+    color: blue;
+}
+.div{
+    margin-left: 10px;
+}
+    </style>
+</head>
+<body>
+    <div id="new">
+        <div id="box">
+                <div id="sign">
+                    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                   CodSoft
+                    </h1>
+                    <button id="courses">
+                        courses
+                    </button>
+                    
+                    <select name="courses" id="" >
+                        <option value="MBA(17)">MBA(17)</option>
+                        <option value="Data science & Analytics(17)">Data science & Analytics(17)</option>
+                        <option value="Doctorate(6)">Doctorate(6)</option>
+                        <option value="software & Tech(18)">software & Tech(18)</option>
+                        <option value="AI & ML(8)">AI & ML(8)</option>
+                        <option value="Marketing(4)">Marketing(4)</option>
+                        <option value="Manegement(23)">Manegement(23)</option>
+                        <option value="Law(7)">Law(7)</option>
+                        <option value="Job Linked(9)">Job Linked(9)</option>
+                        <option value="Bootcamp(13)">Bootcamp(13)</option>
+                        <option value="Study Abroad(77)">Study Abroad(77)</option>
+                        <option value="For College Studenta(5)">For College Studenta(5)</option>
+
+
+                    </select>
+                    <div id="a">
+                    <a href="" class="b">REFER AND EARN</a>
+                    <a href="" class="b">STUDY ABROAD</a>
+                    <a href="" class="b">FREE MASTERCLASS</a>
+                    <a href="" class="b">MORE</a>
+                    </div>
+                    <button id="signup">
+
+                        <a href="" style="color: white;">sign up</a>
+                    </button>
+                    
+                </div>
+                <div id="home">
+                    <div id="h">
+                        <a href=""  id="ho"> Home </a>
+                        
+                    </div>
+                    <div class="fm">></div>
+                    <div class="fm">   Free Masterclass </div><br>
+                
+            <img src="ok.jpeg" alt="" id="img">
+            </div>
+            <h1 id="live" style="color: black;">LIVE LEARNING FOR CAREER GROWTH</h1>
+            <p>Are you someone who is - Feeling stuck in your job? Ambitious to continue learning? Not sure what’s next for you in your career? Our FREE masterclasses with leading industry leaders is exactly what you need!</p>
+            <button id="REG">
+            <a href="" style="color: white;"> REGISTER NOW</a></button>
+            <div id="free" >
+                <div class="f">FREE registration</div>
+                <div class="f">Best-in-class industry experts</div>
+                <div class="f">Live hands-on learning</div>
+                <div class="f">1-1 career counselling</div>
+
+            </div>
+        </div>  
+        <h1 style="color: black;">FREE MASTERCLASSES</h1> 
+        <div id="photo">
+            <div id="one">
+                <img src="https://www.mapsofindia.com/ci-moi-images/my-india/2019/01/Vande-Bharat-Express-Indias-fastest.jpg" alt="" class="we">
+                <h2 style="color: black;">21st sept | thu | 2:18 PM</h2>
+                <div class="div" >vande bharat is fastest train in INDIA</div>
+                <button class="bt">
+                    <a href="" style="color: blue;">Register</a>
+                </button>
+
+            </div>
+            <div id="two">
+                <img src="https://cdn.narendramodi.in/cmsuploads/0.96380100_1674027568_1155x548.jpg" alt="" class="we">
+                <h2 style="color: black;">22nd sept | thu | 2:18 PM</h2>
+                <div class="div">Modiji lead INDIA to a Masterclass innings</div>
+                <button class="bt">
+                    <a href="" style="color: blue">Register</a>
+                </button>
+
+            </div>
+            <div id="three">
+                
+                <img src="https://i.insider.com/601448566dfbe10018e00c5d?width=700" alt="" class="we">
+                <h2 style="color: black;">23rd sept | thu | 2:18 PM</h2>
+                <div class="div">Stonks are very High</div>
+                <button class="bt" >
+                    <a href="" style="color: blue;">Register</a>
+                </button>
+
+            </div>
+
+        </div> 
+        <button id="v">
+            <a href="" style="color: white;">
+            VIEW OUR MASTERCLASSES
+            </a>
+        </button>
+       
+                   </button>
+                   <div id="foot">
+        <div id="in">
+        <div id="upgrade">
+            <h2>CodSoft</h2>
+            <h5>Building Careers of Tomorrow</h5>
+            <a href="" style="color: white;"><i id="w" class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: white;"><i id="w" class="fa-brands fa-twitter"></i></a>
+            <a href="" style="color: white;"><i id="w" class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" style="color: white;"><i id="w" class="fa-brands fa-youtube"></i></a>
+            <div id="but">
+            <button class="bu"><a href="https://www.codsoft.in/" style="color: white;"><i class="fa-brands fa-android"></i> Get the android app</a></button><br>
+            <button class="bu"><a href="https://www.codsoft.in/" style="color: white;"><i class="fa-brands fa-apple"></i> Get the IOS app</a></button>
+            </div>
+        </div><hr>
+        <div id="up">
+              <div class="textone">
+                <header>CodSoft</header>
+               <a href="" class="bc">
+                About<br>
+                Careers<br>
+                Placement Support<br>
+                CodSoftBlog<br>
+                Resources<br>
+                CodSoftFree Courses<br>
+                For Teams<br>
+                Data Science Programs for Teams<br>
+                Product and Technology Programs<br>
+                Management Programs for Teams<br>
+                Online Power Learning<br>
+                Xchange<br>
+                BaseCamp<br>
+                For Business<br>
+                Watch Free Videos<br>
+                CodSoftIn Media<br>
+                Reviews
+               </a>
+              </div>
+              <div class="texttwo">
+                <header>ONECodSoft</header>
+               <a href="" class="bc">
+                CodSoftRekrut<br>
+                CodSoft<br>
+                CodSoftCampus<br>
+                Study Abroad<br>
+                Knowledgehut<br>
+                Global Study Partners<br>
+                Work Better<br>
+                Harappa<br>
+                Harappa School of Leadership<br>
+               CodSoftDisha<br>
+                Insofe<br>
+                Golden Gate University<br>
+                Centum Learning
+                </a>
+              </div>
+              <div class="textthree">
+                <header>SUPPORT</header>
+               <a href="" class="bc">
+                contact<br>
+                Experience Centers<br>
+                Grievance Redressal<br>
+                Terms & Conditions<br>
+                Privacy Policy
+               </a>
+              </div>
+        </div><hr>
+        <div id="upg">
+             <div class="textfour">
+                <header>MBA</header>
+                    <a href="" class="bc">
+                        Liverpool Business School | MBA (Global)<br>
+                    Deakin Business School | MBA (Global)<br>
+                    Golden Gate University | MBA (Global)<br>
+                    PG Diploma in Management | PG Diploma<br>
+                    Management | Advanced General Program<br>
+                    O.P.Jindal Global University | Masters of Business Administration<br>
+                    Global Business Management | Professional Certificate<br>
+                    General Management | Post Graduate Program<br>
+                    BIMTECH | Advanced Certificate in Management<br>
+                    Management |CodSoft's Job-Linked Advanced General Program<br>
+                    On-campus MBA | Atlas SkillTech University<br>
+                    Harappa School of Leadership | Accelerated Management Program<br>
+                    Deakin Business School | MBA (Global)<br>
+                    Generative AI | Marketing Professionals<br>
+                    Business & Law | MBA O.P. Jindal Global University
+                    </a>
+             </div>
+             <div class="textfive">
+               <header>DATA SCIENCE & ANALYTICS</header>
+                <a href="" class="bc">
+                Data Science | Post Graduate Programme<br>
+                Data Science | Master of Science<br>
+                Business Analytics | Executive PG Programme<br>
+                Data Science and Machine Learning | Executive Post Graduate Program<br>
+                Business Analytics | Certificate Program<br>
+                Data Science & AI | Graduate Certificate Program<br>
+                Data Science and Business Analytics | Professional Certificate Program<br>
+                Business Analytics MSU | Global Master Certificate<br>
+                Business Analytics | Master of Science<br>
+                Data Science & Analytics Bootcamp | Data Science & Analytics Bootcamp<br>
+                Data Science | Advanced Certificate Programme
+                </a>
+             </div>
+             <div class="textsix">
+                <header>DOCTORATE</header>
+                <a href="" class="bc">
+                    Golden Gate University | Doctor of Business Administration (DBA)<br>
+                Business Administration ESGCI | Doctorate<br>
+                Rushford Business School | Doctorate of Business Administration<br>
+                Swiss School of Business and Management | Executive Doctor of Business Administration<br>
+                Golden Gate University | Doctor of Business Administration in Emerging Technologies (specialisation in Generative AI)<br>
+                Golden Gate University | Doctor of Juridical Science<br>
+                </a>
+             </div>
+             <div class="textseven">
+              <header> SOFTWARE & TECH</header>
+                <a href="" class="bc">
+                    Computer Science | Master of Science Degree<br>
+                Software Development - Spl. in Full Stack Development | Executive Post Graduate Programme<br>
+                DevOps Engineer Bootcamp | DevOps Engineer Bootcamp<br>
+                Full Stack Software Development Bootcamp | Full Stack Software Development Bootcamp<br>
+                Cloud Computing | Bootcamp<br>
+                UI/UX Design | Bootcamp<br>
+                CodSoft| Generative AI for Tech Professionals<br>
+                ITIL® 4 Foundation Certification Training | Bootcamp<br>
+                Python Programming Certification Training | Bootcamp<br>
+                Angular Training | Bootcamp<br>
+                React JS Training | Bootcamp<br>
+                Certified Ethical Hacking Course (CEH v12) | Bootcamp<br>
+                AWS Certified Solutions Architect - Associate Training | AWS Certified Solutions Architect - Associate Training<br>
+                AWS Cloud Practitioner Essentials Certification Training | AWS Cloud Practitioner Essentials Certification Training<br>
+                Azure Solution Architect Certification (AZ-305T00-A) | Azure Solution Architect Certification (AZ-305T00-A)<br>
+                Azure Administrator Certification (AZ-104) | Azure Administrator Certification (AZ-104)<br>
+                Azure Data Engineering Certification Training (DP-203T00) | Azure Data Engineering Certification Training (DP-203T00)<br>
+                Advanced Full Stack Development | Bootcamp
+                </a>
+             </div>
+        </div><hr>
+        <div id="upgr">
+             <div class="texteight">
+               <header>AI & ML</header>
+               <a href="" class="bc">
+                Machine Learning & AI | Master of Science<br>
+                Machine Learning & AI | Executive Post Graduate Programme<br>
+                Data Science and Machine Learning | Executive Post Graduate Program<br>
+                GenerativeAI | Advanced Certificate Programme<br>
+                Full Stack AI and ML - 100% on-campus | Master's Degree<br>
+                Machine Learning & NLP | Advanced Certificate Programme<br>
+                Machine Learning & Deep Learning | Advanced Certificate Programme<br>
+                AI & Machine Learning Bootcamp: Master the Fut
+               </a>
+             </div>
+             <div class="textnine">
+                <header>MARKETING</header>
+               <a href="" class="bc">
+                Digital Marketing and Communication | Advanced Certificate<br>
+                Brand Communication Management | Advanced Certificate<br>
+                Digital Marketing | Job-ready Program<br>
+                Generative AI | Marketing Professionals
+               </a>
+             </div>
+             <div class="textten">
+                <header>MANAGMENT</header>
+                <a href="" class="bc">
+                HR Management and Analytics | Professional Certificate Programme<br>
+                Product Management | Post Graduate Certification Program<br>
+                Human Resource Management | Executive PG Programme<br>
+                Integrated Supply Chain Management | Global Master Certificate<br>
+                Healthcare Management | Executive Post Graduate Program<br>
+                Management | Advanced General Program<br>
+                Management |CodSoft's Job-Linked Advanced General Program<br>
+                Management Essentials | Management Essentials<br><br>
+                International Finance (integrated with ACCA, UK) | MBA<br>
+                Leadership and Management in New Age Businesses | The Wharton School<br>
+                Product Management | Online Certificate Program<br>
+                Strategic Human Resources Leadership Cornell | Certificate Program<br>
+                Human Resources Management for Indian Executives | Certificate Program<br>
+                Effective Leadership and Management | Global Professional Certificate<br>
+                CSM® Certification Training | Bootcamp<br>
+                CSPO® Certification Training | Bootcamp<br>
+                Leading SAFe® 5.1 Training | Bootcamp<br>
+                SAFe® 5.1 POPM Certification | Bootcamp<br>
+                SAFe® 5.1 Scrum Master Certification | Bootcamp<br>
+                Implementing SAFe® 5.1 with SPC Certification | Bootcamp<br>
+                SAFe® 5 Release Train Engineer (RTE) Certification | Bootcamp<br>
+                PMP® Certification Training | Bootcamp<br>
+                PRINCE2® Foundation and Practitioner Certification
+                </a>
+             </div>
+             <div class="texteleven">
+                <header>LAW</header>
+               <a href="" class="bc">
+                Doctor of Juridical Science (SJD) | Doctor of Juridical Science (SJD)<br>
+                International Business and Finance Law | Master of Laws (LL.M.)<br>
+                Corporate & Financial Law | LL.M.<br>
+                Intellectual Property & Technology Law | LL.M.<br>
+                Dispute Resolution | LL.M.<br>
+                Contract Law Certificate Program | Contract Law Certificate Program<br>
+                Generative AI for Law Professionals | Certificate
+               </a>
+            </div>
+        </div><hr>
+        <div id="upgra">
+            <div class="texttwelve">
+              <header>JOB LINKED</header>
+               <a href="" class="bc">
+                Management |CodSoft's Job-Linked Advanced General Program<br>
+                DevOps Engineer Bootcamp | DevOps Engineer Bootcamp<br>
+                Bootcamp | Full Stack Software Development<br>
+                Data Science Bootcamp | Advanced Certificate Programme<br>
+                Advanced Full Stack Development | Bootcamp<br>
+                Data Science & Analytics Bootcamp | Data Science & Analytics Bootcamp<br>
+                Cloud Computing | Bootcamp<br>
+                UI/UX Design | Bootcamp<br>
+                AI & Machine Learning Bootcamp
+               </a>
+            </div>
+            <div class="texttherteen">
+               <header>BOOTCAMPS</header>
+               <a href="" class="bc">
+                Data Science & Analytics Bootcamp | Bootcamp<br>
+                Full Stack Software Development Bootcamp | Bootcamp<br>
+                UI/UX Design | Bootcamp<br>
+                Cloud Computing | Bootcamp<br>
+                Sales Excellence Bootcamp | Sales Excellence Bootcamp<br>
+                Advanced Full Stack Development | Bootcamp<br>
+                DevOps Engineer Bootcamp | DevOps Engineer Bootcamp<br>
+                Generative AI & Machine Learning Bootcamp: Master the Future of Technology | Bootcamp<br>
+                Data Engineer | Bootcamp<br>
+                Data Analytics | Certification Program<br>
+                AI Engineer | Bootcamp<br>
+                Front-End Developer | Bootcamp<br>
+                Back-End Developer | Bootcamp
+               </a>
+            </div>
+            <div class="textfourteen">
+               <header>FOR COLLEGE STUDENTS</header>
+              <a href="" class="bc">
+                Digital Marketing | Job-ready Program<br>
+                Data Science & Analytics | Job-ready Program<br>
+                Full Stack Development | Job-ready Program<br>
+                Business Analytics | Job-ready Program<br>
+                Artificial Intelligence & Machine Learning | Job-ready Program
+              </a>
+             </div>
+        </div><hr>
+        <div id="last">
+            <header>SUPPLY CHAIN MANAGEMENT</header>
+           <a href="" class="bc">
+            Integrated Supply Chain Management | Global Master Certificate
+           </a>
+        </div><hr>
+        <div id="end"></div>
+        © 2015-2021 CodSoft Private Limited. All rights reserved
+        </div>
+    </div>
+                   </div>
+
+            </div><hr>
+            <div id="pair">
+
+            </div>
+
+        </div>
+        <div id="call">
+            <a href="">
+                <i class="fa-solid fa-phone-volume"> </i>
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
